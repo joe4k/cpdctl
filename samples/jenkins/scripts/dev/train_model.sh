@@ -7,6 +7,7 @@ export PATH=$PATH:$PWD
 # $DEV_SPACE_ID - ID of the development deployment space
 #
 
+cpdctl config context use cpd
 env_name=jupconda221
 job_name=train-scikit-model-job
 model_name=gcr-scikit-model
