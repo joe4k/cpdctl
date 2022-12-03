@@ -7,6 +7,7 @@ export PATH=$PATH:$PWD
 # $DEV_SPACE_ID - ID of the development deployment space
 #
 
+cpdctl config context set cpd --username=datascientist --password=password --url https://services-uscentral.skytap.com:12259/ 
 cpdctl config context use cpd
 env_name=jupconda221
 job_name=train-scikit-model-job
